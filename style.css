@@ -32,6 +32,12 @@ body {
     background-color: var(--Primary-color);
     border-radius: 2rem;
     border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover, .btn2:hover{
+    background-color: blueviolet;
+    cursor: pointer;
 }
 
 .btn2 {
