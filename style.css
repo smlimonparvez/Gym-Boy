@@ -447,6 +447,10 @@ input {
     margin-bottom: 1rem;
 }
 
+.entry-list{
+    list-style: none;
+}
+
 .entry-list li{
     margin-bottom: 1rem;
 }
@@ -492,7 +496,7 @@ input {
 .meet-img-info {
     position: absolute;
     left: 1rem;
-    bottom: 2rem;
+    bottom: 1rem;
 }
 
 /****************************************** Footer *****************************/
