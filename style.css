@@ -52,7 +52,6 @@ body {
     margin-bottom: 1rem;
 }
 
-
 .common-h2 {
     font-size: 1.2rem;
     font-weight: 800;
@@ -341,32 +340,12 @@ header {
 .left-position {
     position: absolute;
     left: 1rem;
-    bottom: 3rem;
+    bottom: 1rem;
     color: var(--heading-color);
 }
 
-.img1 {
-    filter: rgb(130, 254, 232, 0.7);
-}
-
-.img2 {
-    filter: rgb(149, 66, 60);
-}
-
-.img3 {
-    filter: brightness(40%);
-}
-
-.img4 {
-    filter: brightness(40%);
-}
-
-.img5 {
-    filter: brightness(40%);
-}
-
-.img6 {
-    filter: brightness(40%);
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    filter: brightness(70%);
 }
 
 /****************************************** BMI Calculator *****************************/
@@ -388,10 +367,6 @@ header {
     gap: 1rem;
 }
 
-.table {
-    padding: .5rem;
-}
-
 table,
 th,
 td {
@@ -404,7 +379,7 @@ td {
     margin: 1.5rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .5rem;
+    gap: .8rem;
     grid-template-areas:
         "h w"
         "a s"
