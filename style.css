@@ -525,6 +525,11 @@ margin: 0 auto;
 border: 1px solid rgb(150, 133, 133, 0.3);
 }
 
+.footer-h1{
+    font-style: italic;
+    color: var(--Primary-color);
+}
+
 .footer-p{
     text-align: center;
     padding: 2rem;
