@@ -81,7 +81,7 @@ body {
 
 /******************************** Navbar CSS ***************************/
 header{
-    background-image: linear-gradient(rgba(100, 95, 95, 0.3), rgb(0, 0, 0));
+    background-image: linear-gradient(rgba(88, 82, 82, 0.6), rgb(0, 0, 0));
 }
 
 .header {
@@ -93,12 +93,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 0;
 }
 
 .nav-left h3 {
     color: var(--Primary-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     font-style: italic;
 }
@@ -150,7 +150,6 @@ header{
 
 .hero-content {
     flex: 50%;
-    padding: 1rem;
 }
 
 .hero-content h1 {
@@ -176,7 +175,6 @@ header{
     align-items: flex-start;
     flex: 40%;
     position: relative;
-    padding: 1rem;
 }
 
 .card1 {
@@ -627,6 +625,7 @@ input {
 
     .hero-part {
         flex-direction: column;
+        gap: 2rem;
     }
 
     .hero-content {
